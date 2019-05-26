@@ -60,6 +60,11 @@ a:hover {
     color: black
 }
 
+.Modal {
+    display: grid; 
+    
+}
+
 
 nav {
     width: auto;
