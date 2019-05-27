@@ -1,8 +1,6 @@
 header {
     background-color: #fcd770;
     text-align: center;
-    margin-top: 0%;
-    margin-bottom: 0%;
     padding: 1%;
 }
 
@@ -21,6 +19,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover; 
     background-attachment: fixed;
+    margin: 0;
 }
 
 li{
@@ -29,7 +28,7 @@ li{
 
 .fixed { 
     position: fixed;
-    width: 97.85vw;
+    width: 100%;
 }
 
 ul{
@@ -62,6 +61,8 @@ a:hover {
 
 .Modal {
     display: grid; 
+    grid-template-columns: 1fr,1fr,1fr,1fr;
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
     
 }
 
