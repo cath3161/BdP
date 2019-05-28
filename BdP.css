@@ -1,25 +1,13 @@
 header {
     background-color: #fcd770;
     text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
     padding: 1%;
 }
 
 .logo { 
     width: 30%;
-}
-
-main {
-display: grid;
-grid-template-columns: 1fr;
-grid-template-rows: auto;
-}
-
-body {
-    background-image: url(skov.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; 
-    background-attachment: fixed;
-    margin: 0;
 }
 
 li{
@@ -28,7 +16,7 @@ li{
 
 .fixed { 
     position: fixed;
-    width: 100%;
+    width: 97.85vw;
 }
 
 ul{
@@ -59,14 +47,6 @@ a:hover {
     color: black
 }
 
-.Modal {
-    display: grid; 
-    grid-template-columns: 1fr,1fr,1fr,1fr;
-    grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
-    
-}
-
-
 nav {
     width: auto;
 }
@@ -74,7 +54,7 @@ nav {
 h1 {
     text-align: center;
     color: #fcd770;
-    background-color: #000000c9;
+    background-color: #000000bd;
     max-width: 70%;
     margin-left: 15%;
     margin-right: 15%;
@@ -86,7 +66,7 @@ h1 {
 
 p {
      color: white;
-     font-size: 15px;
+     font-size: 30px;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
  footer { 
@@ -100,5 +80,32 @@ p {
      text-align: center;
      color: white;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
-     font-size: 15px;
+     font-size: 20px;
  }
+
+ .img {
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    height: auto;
+    font-size: 100px;
+  }
+  body {
+      
+    background-image: url(skov.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    margin: 0;
+  }
