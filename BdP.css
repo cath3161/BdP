@@ -10,47 +10,6 @@ header {
     width: 30%;
 }
 
-li{
-    display: inline-block;  
-}
-
-.fixed { 
-    position: fixed;
-    width: 97.85vw;
-}
-
-ul{
-    display: grid;
-    margin: 0 auto;
-    text-align: center;
-    max-width: 100%;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    background-color: #000000e6;
-}
-
-.a{
-    display: block;
-    text-decoration: none;
-    color:  #fcd770;
-    font-size: 200%;
-    justify-self: auto;  
-    padding-top: 10px;
-    padding-bottom: 2px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-a:hover { 
-    background-color: #fcd770;
-    color: black
-}
-
-nav {
-    width: auto;
-}
-
 h1 {
     text-align: center;
     color: #fcd770;
